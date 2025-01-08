@@ -4,6 +4,7 @@ import $ from 'jquery'
 
 function Footer() {
   useEffect(()=>{
+    // for production purpose i removed the return function
       let h4Toggle1 = $('.1h');
       // console.log(h4Toggle1);
       let h4Toggle2 = $('.2h');

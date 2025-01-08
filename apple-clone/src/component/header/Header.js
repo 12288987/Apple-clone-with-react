@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   useEffect(()=>{
+    // for production purpose i removed the return function
     let options = $('.op');
     let slideop = $('.sli');
 
