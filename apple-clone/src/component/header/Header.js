@@ -8,23 +8,21 @@ import { Link } from "react-router-dom";
 
 function Header() {
   useEffect(()=>{
-    return () => {
-      let options = $('.op');
-      let slideop = $('.sli');
+    let options = $('.op');
+    let slideop = $('.sli');
 
-      options.on('click', function() {
-          if (document.getElementById("op").className === "fa-solid fa-bars op") {
-              document.getElementById("op").className = "fa-solid fa-xmark op";
-              $('section').css('display', 'none');
-              $('footer').css('display', 'none');
-          } else {
-              document.getElementById("op").className = "fa-solid fa-bars op";
-              $('section').css('display', 'block');
-              $('footer').css('display', 'block');
-          };
-          slideop.slideToggle();
-      })
-    }
+    options.on('click', function() {
+        if (document.getElementById("op").className === "fa-solid fa-bars op") {
+            document.getElementById("op").className = "fa-solid fa-xmark op";
+            $('section').css('display', 'none');
+            $('footer').css('display', 'none');
+        } else {
+            document.getElementById("op").className = "fa-solid fa-bars op";
+            $('section').css('display', 'block');
+            $('footer').css('display', 'block');
+        };
+        slideop.slideToggle();
+    })
   }, [])
   return (
     <>

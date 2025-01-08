@@ -4,7 +4,6 @@ import $ from 'jquery'
 
 function Footer() {
   useEffect(()=>{
-    return () => {
       let h4Toggle1 = $('.1h');
       // console.log(h4Toggle1);
       let h4Toggle2 = $('.2h');
@@ -134,7 +133,6 @@ function Footer() {
               document.getElementById("10h").className = "fa-solid fa-plus mobile 10h";
           };
       })
-    }
   }, [])
   return (
     <footer>
