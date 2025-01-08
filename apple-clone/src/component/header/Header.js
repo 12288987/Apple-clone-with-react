@@ -34,7 +34,7 @@ function Header() {
         <li className="col-9 col-md aplogo">
           <Link to="/"><img src={logo} alt="" /></Link>
         </li>
-        <li className="col-md d-none d-md-block iphone"><a className="iphone" href="/iphone/">iPhone</a></li>
+        <li className="col-md d-none d-md-block iphone"><Link className="iphone" to="/iphone/">iPhone</Link></li>
         <li className="col-md d-none d-md-block"><a href="/mac/">Mac</a></li>
         <li className="col-md d-none d-md-block"><a href="#">ipad</a></li>
         <li className="col-md d-none d-md-block"><a href="#">Watch</a></li>
@@ -45,7 +45,7 @@ function Header() {
           <Link to="#"><img src={search} alt="" /></Link>
         </li>
         <li className="col-1 col-md d-md-block">
-          <Link to="/cart"><img src={cart} alt="" /></Link>
+          <Link to="/cart/"><img src={cart} alt="" /></Link>
         </li>
         <li className="col-1 col-md d-md-none fontas">
           <i className="fa-solid fa-bars op" id="op"></i>
