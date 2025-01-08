@@ -20,11 +20,11 @@ function App() {
       <Routes>
         <Route path="/" element={<SharedElement />}>
           <Route index element={<MainS />} />
-          <Route path="iphone" element={<Iphone />} />
-          <Route path="iphone/:lastUrl" element={<Productpage />} />
-          <Route path="mac" element={<Mac />} />
+          <Route path="/iphone" element={<Iphone />} />
+          <Route path="/iphone/:lastUrl" element={<Productpage />} />
+          <Route path="/mac" element={<Mac />} />
           {/* <Route path="search" element={<Search />} /> */}
-          <Route path="cart" element={<Cart />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Notfoundpage />} />
         </Route>
       </Routes>
