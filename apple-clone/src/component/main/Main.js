@@ -7,7 +7,7 @@ import FifthSection from '../FifthSection';
 import SixthSection from '../SixthSection';
 import YoutubeFunctionality from '../YoutubeFunctionality';
 
-function Main() {
+function MainS() {
   return (
     <>
       <FirstSection />
@@ -21,4 +21,4 @@ function Main() {
   )
 }
 
-export default Main;
+export default MainS;
