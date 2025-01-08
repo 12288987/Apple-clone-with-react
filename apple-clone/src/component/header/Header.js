@@ -52,7 +52,7 @@ function Header() {
     </div>
     </header>
     <div className="d-md-none sli" id="dropdownMenu">
-      <div><a href="/iphone/">iPhone</a></div>
+      <div><Link to="/iphone/">iPhone</Link></div>
       <div>Mac</div>
       <div>ipad</div>
       <div>Store</div>
