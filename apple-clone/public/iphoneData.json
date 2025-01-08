@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "product_id": 1,
+      "product_name": "iPhone 13",
+      "product_url": "iphone13",
+      "description_id": 1,
+      "product_description": "It is a good phone",
+      "price_id": 1,
+      "product_price": "$200",
+      "link_id": 1,
+      "product_link": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-13-Pro-Max-256GB-Fully-Unlocked-Graphite-Refurbished-Good_da2bbb6d-3d91-40f5-b6a4-c54b88448982.0abfd5f37e2a4cede979ad53321aef64.jpeg"
+    },
+    {
+      "product_id": 2,
+      "product_name": "iPhone 14",
+      "product_url": "iphone14",
+      "description_id": 2,
+      "product_description": "It is exactly the same design as iPhone 13",
+      "price_id": 2,
+      "product_price": "$250",
+      "link_id": 2,
+      "product_link": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-14-pro-spaceblack-202404?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=1712956909430"
+    },
+    {
+      "product_id": 3,
+      "product_name": "iPhone 15",
+      "product_url": "iphone15",
+      "description_id": 3,
+      "product_description": "It is iPhone what can I say.",
+      "price_id": 3,
+      "product_price": "$275",
+      "link_id": 3,
+      "product_link": "https://www.maplestore.in/cdn/shop/files/iPhone_15_Pink_PDP_Image_Position-1__en-IN.jpg?v=1701823104&width=2048"
+    }
+  ]
+}
